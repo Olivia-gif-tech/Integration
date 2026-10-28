@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d’Olivia, étudiante en développement web et web mobile.">
+  <title>Olivia — Développeuse web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation container" aria-label="Navigation principale">
+      <a class="logo" href="#accueil">OLIVIA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>2*** 
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="accueil">
+      <div class="hero-content">
+        <p class="eyebrow">Bienvenue sur mon portfolio</p>
+        <h1>OLIVIA<span>Développeuse web</span></h1>  <p class="intro">Passionnée par la création d’expériences web modernes et intuitives, je conçois des sites et des applications qui allient design et performance.</p>
+        <div class="actions">
+          <a class="button" href="#projets">Voir mes projets <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#contact">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit"></div>
+        <div class="code-card"><div class="dots"><i></i><i></i><i></i></div><p>&lt;hello&gt;</p><strong>Créativité.<br>Design.<br>Code.</strong><p>&lt;/hello&gt;</p></div>
+        <span class="art-label">Imaginer &amp; créer</span>
+      </div>
+    </section>
+
+    <section class="section about" id="a-propos">
+      <div class="container about-grid">
+        <div><p class="eyebrow">Qui suis-je ?</p><h2>À propos<span>.</span></h2></div>
+        <div class="about-text">
+   
+<p>Étudiante en développement web et web mobile, je cultive une curiosité qui va bien au-delà du numérique.</p>
+          <p>Passionnée de cinéma, de films et de séries, je m’intéresse également au dessin, à l’écriture, à la musique, à la peinture et à la danse. 
+            Les voyages nourrissent mon imagination et mon ouverture sur le monde.</p>
+          <p>Ces centres d’intérêt enrichissent ma créativité, que je souhaite mettre au service de projets web alliant esthétique et fonctionnalité.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="competences">
+      <p class="eyebrow">Ce que je maîtrise</p>
+      <h2>Mes compétences<span>.</span></h2>
+      <ul class="skills">
+        <li><span class="skill-icon" aria-hidden="true">Git</span><h3>Git</h3><p>Gestion de versions</p></li>
+        <li><span class="skill-icon" aria-hidden="true">GH</span><h3>GitHub</h3><p>Collaboration</p></li>
+        <li><span class="skill-icon" aria-hidden="true">Fi</span><h3>Figma</h3><p>Maquettes &amp; design</p></li>
+        <li><span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><h3>HTML</h3><p>Structure web</p></li>
+        <li><span class="skill-icon" aria-hidden="true">{ }</span><h3>CSS</h3><p>Mise en page &amp; style</p></li>
+        <li><span class="skill-icon" aria-hidden="true">JS</span><h3>JavaScript</h3><p>Interactivité</p></li>
+      </ul>
+    </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="container">
+        <p class="eyebrow">Mes réalisations</p>
+        <h2>Mes projets<span>.</span></h2>
+        <!-- Remplace ces aperçus et descriptions par tes projets réels.
+             Pour ajouter un lien : <a href="URL-DU-PROJET">Voir le projet</a>. -->
+        <div class="projects">
+          <article class="project"><div class="project-preview preview-one"
+    aria-hidden="true"><span>01</span><div class="mini-window"><i></i><b></b><em></em></div></div><div class="project-content"><p class="project-number">Réalisation 01</p><h3>Projet 1</h3><p>Ajoute ici le nom et la description de ton premier projet.</p></div></article>
+          <article class="project"><div class="project-preview preview-two" aria-hidden="true"><span>02</span><div class="mini-window"><i></i><b></b><em></em></div></div><div class="project-content"><p class="project-number">Réalisation 02</p><h3>Projet 2</h3><p>Ajoute ici le nom et la description de ton deuxième projet.</p></div></article>
+          <article class="project"><div class="project-preview preview-three" aria-hidden="true"><span>03</span><div class="mini-window"><i></i><b></b><em></em></div></div><div class="project-content"><p class="project-number">Réalisation 03</p><h3>Projet 3</h3><p>Ajoute ici le nom et la description de ton troisième projet.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-grid" id="contact">
+      <div><p class="eyebrow">Une question ?</p><h2>Contact<span>.</span></h2><p class="contact-intro">Un projet, une idée ou simplement envie d’échanger ? Écris-moi.</p></div>        
+      <!-- Formulaire visuel : connecter un service d’envoi ou un serveur pour le rendre fonctionnel. -->
+      <form class="contact-form">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Ton nom" autocomplete="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="ton@email.fr" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Ton message…" required></textarea>
+        <button class="button" type="button" disabled>Envoi à configurer <span aria-hidden="true">↗</span></button>
+        <p class="form-note">L’envoi des messages sera disponible après la configuration du formulaire.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Olivia M.</p><div class="social-links"><!-- Remplace ces textes par des liens vers tes profils. --><span>GitHub</span><span>LinkedIn</span></div><a href="#accueil">Retour en haut ↑</a></div></footer>
+</body>
+</html>
