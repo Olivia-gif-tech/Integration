@@ -1,0 +1,13 @@
+.hover-effect {   
+    border-radius: 3px;
+
+}
+
+.hover-effect:hover { 
+    opacity: 0.5;
+
+}
+
+#noir-blanc {
+    filter: grayscale(100%);
+}
