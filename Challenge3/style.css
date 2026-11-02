@@ -1,0 +1,171 @@
+/* Style général du portfolio */
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Menu de navigation * /
+.header {
+background-color:#222222
+padding: 20px;
+}
+
+.header a {
+    color: white;
+
+.nav-links {
+    display: flex;
+    gap: 25px
+    list-style: none;
+    padding:0;
+}
+
+/* Lien du menu */
+.nav-links a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Section d'accueil */
+.hero { 
+    padding:60px 20px
+    text-align: center;
+}
+
+/* Titres */
+h1{
+    font-size: 36px;
+    color: #333333
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Correction du menu */
+header.header {
+    background-color: #222222;
+    padding: 20px;
+}
+
+header.header .nav-links a {
+color:white;
+text-decoration: none;
+}
+
+header.header .nav-links {
+list-style: none;
+display: flex;
+gap: 20px
+padding: 0;
+flex-wrap: wrap;
+}
+
+/* Espacement du menu */
+.header .nav-links {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px;
+    list-style: none;
+    margin: 15px 0 0;
+}
+
+/* Couleur du logo */
+.header .logo {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
+
+
+
+/* Boutons du portfolio */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3;
+}
+
+.button:hover {
+    background-color: #5148d8;
+}
+
+/* Deuxième bouton */
+.button-outline {
+    background-color: transparent;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+}
+
+.button-outline:hover{
+    background-color: #6c63ff;
+    color: white;
+}
+
+
+
+/* Espacement du titre principal */
+.hero h1 span {
+    display: inline-block;
+    margin-left: 12px;
+    color: #6c63ff
+}
+
+
+
+
+/* Présentation des sections */
+main section:not(.hero) {
+padding: 50px 5%
+}
+
+/* Titres des sections */
+main section: h2 {  
+font-size: 30px;
+color: #302d60; 
+margin-bottom: 25px;
+}
+
+/* Paragraphes */
+main section: p {
+    line-height: 1.8
+    margin-bottom: 15px;
+}
+
+/* Listes des compétences */
+main section: ul {
+    line-height: 2;
+} 
