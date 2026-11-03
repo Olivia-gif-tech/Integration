@@ -9,12 +9,13 @@ body{
 
 /* Menu de navigation * /
 .header {
-background-color:#222222
+background-color:#222222;
 padding: 20px;
 }
 
 .header a {
     color: white;
+}
 
 .nav-links {
     display: flex;
@@ -40,21 +41,6 @@ h1{
     font-size: 36px;
     color: #333333
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -149,7 +135,7 @@ font-weight: bold;
 
 /* Présentation des sections */
 main section:not(.hero) {
-padding: 50px 5%
+padding: 50px 5%;
 }
 
 /* Titres des sections */
@@ -169,3 +155,149 @@ main section p {
 main section ul {
     line-height: 2;
 } 
+
+/* Amélioration de la lisibilité */
+body {
+    color: #333333;
+    background-color: #f5f5f5;
+}
+
+
+.hero h1 {
+color: #222222;
+}
+
+main section h2{ 
+    color: #222222; 
+}
+
+
+/* Titre du haut en blanc */
+.header h1 {
+    color: white;
+}
+
+
+
+
+
+
+/* Présentation des compétences */
+.skills { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Cartes des compétences */
+.skills li {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0,1);
+    border: 1px solid #eeeeee;
+}
+
+/* Titres des compétences */
+.skills h3 {
+    color: #6c63ff;
+    margin-bottom: 10px;
+} 
+
+
+
+
+/* Présentation des projets */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+/* Cartes des projets */
+.project {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+
+/* Titres des projects */
+.project h3 {
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+
+
+
+/* Adaptation aux petits écrans */
+@media (max-width: 768px) {
+    .projects { 
+    grid-template-columns: 1fr;
+}
+}
+
+
+
+
+
+
+
+
+/* mise en page du formulaire */
+.contact-form { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+/* Etiquettes */
+.contact-form label { 
+    font-weight: bold;
+    color: #333333;
+}
+
+
+
+/* Champs du formulaire */
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-family: Arial, sans serif;
+    font-size: 16px;
+}
+
+
+
+/* Champs sélectionné */
+.contact-form input:focus,
+.contact-form textarea;focus {
+    outline: 2px solid #6c63ff;
+    border-color: #6c63ff;
+}
+
+
+
+/* Bouton désactivé */
+.contact-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
