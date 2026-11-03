@@ -31,7 +31,7 @@ padding: 20px;
 
 /* Section d'accueil */
 .hero { 
-    padding:60px 20px
+    padding:60px 20px;
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ text-decoration: none;
 header.header .nav-links {
 list-style: none;
 display: flex;
-gap: 20px
+gap: 20px;
 padding: 0;
 flex-wrap: wrap;
 }
@@ -153,19 +153,19 @@ padding: 50px 5%
 }
 
 /* Titres des sections */
-main section: h2 {  
+main section h2 {  
 font-size: 30px;
 color: #302d60; 
 margin-bottom: 25px;
 }
 
 /* Paragraphes */
-main section: p {
-    line-height: 1.8
+main section p {
+    line-height: 1.8;
     margin-bottom: 15px;
 }
 
 /* Listes des compétences */
-main section: ul {
+main section ul {
     line-height: 2;
 } 
